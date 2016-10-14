@@ -2,6 +2,8 @@ package com.other;
 
 /**
  * Created by hexi on 16-10-14.
+ * 问题描述：一个无序数组里有若干个正整数，范围从1到100，其中98个整数都出现了偶数次，只有两个整数出现了奇数次（
+ *          比如1,1,2,2,3,4,5,5），如何找到这个出现奇数次的整数？
  */
 public class findReplicate {
     public static void main(String[] args) {
