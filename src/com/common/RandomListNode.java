@@ -11,4 +11,9 @@ public class RandomListNode {
     public RandomListNode(int label) {
         this.label = label;
     }
+
+    @Override
+    public String toString() {
+        return String.valueOf(this.label);
+    }
 }
