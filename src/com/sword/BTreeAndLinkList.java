@@ -21,7 +21,6 @@ public class BTreeAndLinkList {
             while(realHead.left != null) {
                 realHead = realHead.left;
             }
-            TreeNode head = null;
             traverse(pRootOfTree);
             return realHead;
         }
