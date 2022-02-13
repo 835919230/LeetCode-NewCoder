@@ -20,6 +20,14 @@ public class QuickSort {
         process(arr, mid + 1, right);
     }
 
+    /**
+     * 把小于中枢值的元素放于中枢值之前，这里的遍历先让中枢值在最前面，循环结束之后再把这个中枢值和区间里最后一个小于它的元素交换
+     *
+     * @param arr
+     * @param left
+     * @param right
+     * @return
+     */
     public static int partition(int[] arr, int left, int right) {
         int pivot = left - 1;
         int index = left;
